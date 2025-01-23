@@ -1,0 +1,102 @@
+/* Login.module.css */
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b0918;
+  }
+  
+  .card {
+    width: 80%;
+    max-width: 420px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cardTitle {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .errorMessage {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .inputField {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .button:disabled {
+    background-color: #ccc;
+  }
+  
+  .socialButton {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  .socialButton:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .socialButton:disabled {
+    background-color: #ccc;
+  }
+  
+  .signupText {
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  .signupLink {
+    color: #007BFF;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .socialLogin{
+    display: flex;
+  }
+  
